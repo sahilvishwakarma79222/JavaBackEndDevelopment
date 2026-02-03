@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="918bb516-763a-49df-aa4c-d321e543a962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/java/com/substring/quiz/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/java/com/substring/quiz/serviceimpl/QuizServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/intellij/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/intellij/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/intellij/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/intellij/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/intellij/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/intellij/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="399ft7Kod86Hq7eNhmeL0K25PX1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CategoryServiceApplication.executor": "Run",
+    "Application.QuizApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/sahilFiles/microservice"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.QuizApplication">
+    <configuration name="CategoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.substring.quiz.category.CategoryServiceApplication" />
+      <module name="category-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.substring.quiz.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.substring.quiz.QuizApplication" />
+      <module name="quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.substring.quiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizApplication" />
+        <item itemvalue="Application.CategoryServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="918bb516-763a-49df-aa4c-d321e543a962" name="Changes" comment="" />
+      <created>1770113430809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770113430809</updated>
+    </task>
+    <servers />
+  </component>
+</project>
