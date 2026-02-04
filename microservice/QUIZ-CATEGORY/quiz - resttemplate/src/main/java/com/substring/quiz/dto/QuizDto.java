@@ -19,6 +19,7 @@ public class QuizDto {
     private  Boolean live;
     private  Integer passingMarks;
     private  String categoryId;
+    private CategoryDto categoryDto;
 
 
 }

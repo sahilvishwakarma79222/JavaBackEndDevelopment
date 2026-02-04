@@ -1,5 +1,7 @@
 package com.substring.quiz.collection;
 
+import com.substring.quiz.dto.CategoryDto;
+import jdk.jfr.Category;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -26,5 +28,4 @@ public class Quiz {
     private  Boolean live;
     private  Integer passingMarks;
     private  String categoryId;
-
 }

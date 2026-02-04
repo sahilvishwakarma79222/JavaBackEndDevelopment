@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918bb516-763a-49df-aa4c-d321e543a962" name="Changes" comment="" />
+    <list default="true" id="918bb516-763a-49df-aa4c-d321e543a962" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/collection/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/collection/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/dto/QuizDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/dto/QuizDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/QuizServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/QuizServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

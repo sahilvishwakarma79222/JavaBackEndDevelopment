@@ -27,10 +27,8 @@ public class QuizServiceImpl implements QuizService {
         this.categoryService=categoryService;
     }
 
-
     @Override
     public QuizDto saveQuiz(QuizDto quiz) {
-        System.out.println("i am inside save quiz");
         if(quiz.getCategoryId()!=null || !(quiz.getCategoryId().isEmpty())){
             CategoryDto byCategoryId = categoryService.findByCategoryId((quiz.getCategoryId()));
         }
@@ -51,8 +49,18 @@ public class QuizServiceImpl implements QuizService {
     public QuizDto findById(String quizId) {
 
         Optional<Quiz> quiz = quizRepository.findById(quizId);
-        Optional<QuizDto> quizDto = quiz.map(q -> modelMapper.map(q, QuizDto.class));
-        return quizDto.get();
+        QuizDto quizDto = quiz.map(q -> modelMapper.map(q, QuizDto.class)).get();
+
+        try{
+            CategoryDto catDto = categoryService.findByCategoryId(quiz.get().getCategoryId());
+            System.out.println(quiz.get().getCategoryId()+"   i am here");
+            quizDto.setCategoryDto(catDto);
+
+
+        }catch (Exception e){
+            quizDto.setCategoryDto(null);
+        }
+        return quizDto;
     }
 
     @Override
