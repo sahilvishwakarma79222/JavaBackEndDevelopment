@@ -20,7 +20,7 @@ public class CategoryServiceImpl implements CategoryService {
     public CategoryDto findByCategoryId(String categoryId) {
         String getUrl=url+"category/get/"+categoryId;
         return  restTemplate.getForObject(getUrl, CategoryDto.class);
-
+ 
     }
 
 
