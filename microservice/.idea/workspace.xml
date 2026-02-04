@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="918bb516-763a-49df-aa4c-d321e543a962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/QuizServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/collections/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/config/ProjectConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/controller/QuizController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/controller1/QuizController1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/dto/CategoryDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/dto/QuizDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/repository/QuizRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service/CategoryServiceWebClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service/QuizService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service/WebClientCategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service1/CategoryServiceFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/service1/QuizServiceTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/CategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/CategoryServiceWebClientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/QuizServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/QuizServiceWebClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/RestTemplateQuizCrud.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/WebClientCategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/java/com/substring/quiz/serviceImpl/WebClientQuizCrud.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz-service/src/test/java/com/substring/quiz/QuizServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/java/com/substring/quiz/controller/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/java/com/substring/quiz/controller/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QUIZ-CATEGORY/quiz - resttemplate/src/main/java/com/substring/quiz/serviceimpl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

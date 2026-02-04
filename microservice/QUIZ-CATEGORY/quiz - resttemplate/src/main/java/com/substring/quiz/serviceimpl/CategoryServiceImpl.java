@@ -19,8 +19,8 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public CategoryDto findByCategoryId(String categoryId) {
         String getUrl=url+"category/get/"+categoryId;
-        CategoryDto category = restTemplate.getForObject(getUrl, CategoryDto.class);
-        return category;
+        return  restTemplate.getForObject(getUrl, CategoryDto.class);
+
     }
 
 
