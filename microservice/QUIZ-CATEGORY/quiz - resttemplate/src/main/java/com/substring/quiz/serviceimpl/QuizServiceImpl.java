@@ -29,12 +29,20 @@ public class QuizServiceImpl implements QuizService {
 
     @Override
     public QuizDto saveQuiz(QuizDto quiz) {
-        if(quiz.getCategoryId()!=null || !(quiz.getCategoryId().isEmpty())){
+
+        try{
+
             CategoryDto byCategoryId = categoryService.findByCategoryId((quiz.getCategoryId()));
+
+            Quiz entity = modelMapper.map(quiz, Quiz.class);
+            Quiz save = quizRepository.save(entity);
+            return modelMapper.map(save,QuizDto.class);
         }
-        Quiz entity = modelMapper.map(quiz, Quiz.class);
-        Quiz save = quizRepository.save(entity);
-        return modelMapper.map(save,QuizDto.class);
+        catch(Exception e){
+            throw new RuntimeException("Category not found with id "+quiz.getCategoryId());
+        }
+
+
     }
 
     @Override

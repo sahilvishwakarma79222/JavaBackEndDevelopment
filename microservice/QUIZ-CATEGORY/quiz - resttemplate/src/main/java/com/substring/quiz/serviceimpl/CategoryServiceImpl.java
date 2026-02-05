@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
-    private static final String url="http://localhost:9091/api/v1/";
+    private static final String url="http://CATEGORY-SERVICE/api/v1/";
 
     public final RestTemplate restTemplate;
 
