@@ -29,6 +29,8 @@
     "Application.CategoryServiceApplication.executor": "Run",
     "Application.QuizApplication.executor": "Run",
     "Application.ServiceRegistryApplication.executor": "Run",
+    "Maven.category-service [package].executor": "Run",
+    "Maven.quiz [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
