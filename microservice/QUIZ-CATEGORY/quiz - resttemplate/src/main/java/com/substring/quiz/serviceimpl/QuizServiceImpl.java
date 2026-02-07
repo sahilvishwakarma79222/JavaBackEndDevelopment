@@ -49,8 +49,19 @@ public class QuizServiceImpl implements QuizService {
     public List<QuizDto> getAllQuiz() {
 
         List<Quiz> all = quizRepository.findAll();
-        List<QuizDto> allQuiz = all.stream().map(q -> modelMapper.map(q, QuizDto.class)).toList();
-        return allQuiz;
+
+        List<QuizDto> list = all.stream().map(q -> {
+            QuizDto quizdto = modelMapper.map(q, QuizDto.class);
+            try {
+                CategoryDto catdto = categoryService.findByCategoryId(quizdto.getCategoryId());
+                quizdto.setCategoryDto(catdto);
+            } catch (Exception e) {
+                quizdto.setCategoryDto(null);
+            }
+            return quizdto;
+        }).toList();
+//        List<QuizDto> allQuiz = all.stream().map(q -> modelMapper.map(q, QuizDto.class)).toList();
+        return list;
     }
 
     @Override
