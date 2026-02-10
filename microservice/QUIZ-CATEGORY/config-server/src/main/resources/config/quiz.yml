@@ -1,0 +1,28 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://localhost:27017/test"
+  application:
+    name: quiz
+
+server:
+  port: 9092
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+
+
+
+
+
+
+
+logging:
+  level:
+    org.springframework.data.mongodb: TRACE

@@ -8,9 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="demo" />
         <module name="service-registry" />
       </profile>
-      <profile name="Annotation profile for quiz" enabled="true">
+      <profile name="Annotation profile for category-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -28,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="category-service" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="quiz" options="-parameters" />
       <module name="quiz (1)" options="-parameters" />
       <module name="quiz (2)" options="-parameters" />
