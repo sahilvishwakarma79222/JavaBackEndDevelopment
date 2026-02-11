@@ -4,7 +4,11 @@ spring:
       uri: "mongodb://localhost:27017/test"
   application:
     name: quiz
-
+  config:
+    import: configserver:http://localhost:9094
+  cloud:
+    config:
+      profile: qa
 server:
   port: 9092
 eureka:
@@ -13,14 +17,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
-
-
-
-
-
-
-
 
 
 logging:

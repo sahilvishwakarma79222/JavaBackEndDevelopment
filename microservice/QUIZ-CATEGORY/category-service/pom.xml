@@ -60,7 +60,7 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Category-Service ke pom.xml mein -->
+        <!-- Category-Service CONFIG KE LIYE. pom.xml mein -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
