@@ -18,7 +18,7 @@ public class ConfigController {
 
     @GetMapping("/config")
     public ResponseEntity<?> getConfiValue(){
-        return new ResponseEntity<>("hello", HttpStatus.OK);
+        return new ResponseEntity<>(config, HttpStatus.OK);
     }
 
 

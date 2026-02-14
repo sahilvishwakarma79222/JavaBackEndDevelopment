@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50620170-ed76-47f0-92b3-72c66d3d0092" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz - resttemplate/src/main/java/com/substring/quiz/controller/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz - resttemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz - resttemplate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz - resttemplate/src/main/java/com/substring/quiz/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/src/main/java/com/substring/quiz/controller/ConfigController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <recent name="D:\sahilFiles\microservice\QUIZ-CATEGORY\category-service\src\main\java\com\substring\quiz\category" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CategoryServiceApplication">
+  <component name="RunManager" selected="Application.QuizApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -143,8 +138,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CategoryServiceApplication" />
         <item itemvalue="Application.QuizApplication" />
+        <item itemvalue="Application.CategoryServiceApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.ServiceRegistryApplication" />
