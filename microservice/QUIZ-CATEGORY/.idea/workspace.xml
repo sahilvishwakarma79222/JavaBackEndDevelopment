@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50620170-ed76-47f0-92b3-72c66d3d0092" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/substring/quiz/category/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/substring/quiz/category/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz - resttemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz - resttemplate/src/main/java/com/substring/quiz/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/src/main/java/com/substring/quiz/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz - resttemplate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz - resttemplate/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
