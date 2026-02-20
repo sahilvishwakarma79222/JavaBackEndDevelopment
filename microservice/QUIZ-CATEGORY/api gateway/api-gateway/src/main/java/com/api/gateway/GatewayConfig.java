@@ -14,12 +14,12 @@ public class GatewayConfig {
 
 //        .route("myQuizRoute",route-> route.path("/quiz/**")  // Route ID: कोई भी
 //                .filters(f->f.rewritePath("/quiz/?(?<remaining>.*)","/${remaining}"))
-//                .uri("lb://QUIZ-SERVICE")  // ✅ Eureka registered name
+//                .uri("lb://QUIZ-SERVICE")  //  Eureka registered name
 //        )
 //
 //                .route("categoryApi",route-> route.path("/category/**")  // Route ID: कोई भी
 //                        .filters(f->f.rewritePath("/category/?(?<remaining>.*)","/${remaining}"))
-//                        .uri("lb://CATEGORY-SERVICE")  // ✅ Eureka registered name
+//                        .uri("lb://CATEGORY-SERVICE")  //  Eureka registered name
 //                )
        return builder.routes()
                .route("category-service",route-> route.path("/category/**")
